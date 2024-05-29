@@ -7,7 +7,7 @@
   *{
     padding: 0;
     margin: 0;
-    font-family: arial;
+    font-family: Helvetica;
   }
   .sidebar{
     position: fixed;
@@ -45,5 +45,10 @@
   }
   li{
     padding: 10px 0;
+  }
+  .galary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   
